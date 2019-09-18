@@ -16,12 +16,9 @@ void main()
 
 	printf("세자리수까지의 정수를 입력하세요: ");
 	scanf_s("%d", &num);
-	while (1) {
-		DigitValue(num);
+	
+	DigitValue(num);
 
-		if (num == -1)
-			break;
-	}
 }
 
 void DigitValue(int i)
